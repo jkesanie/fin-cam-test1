@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D3 Sunburst Visualization</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="data.js"></script>
+    <style>
+      #tooltip {
+        position: fixed;
+        background: rgba(0, 0, 0, 0.85);
+        color: #fff;
+        padding: 12px;
+        border-radius: 6px;
+        font-size: 13px;
+        z-index: 1000;
+        pointer-events: none;
+        max-width: 300px;
+        word-wrap: break-word;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+      }
+      #tooltip strong {
+        color: #ffd700;
+      }
+    </style>
+
+    <script src="sunburst.js"></script>
+
+</head>
+<body>
+    <div id="sunburst-container"></div>
+    <div id="tooltip" style="display: none;"></div>
+    
+    <script>
+
+
+    // Render the sunburst chart
+    const container = document.getElementById("sunburst-container");
+    const svg = chart(data);
+    container.appendChild(svg);
+    </script>
+</body>
+</html>
