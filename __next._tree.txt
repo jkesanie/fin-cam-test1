@@ -1,3 +1,3 @@
-:HL["/fin-cam-test1/_next/static/chunks/10yugatb4i.f-.css","style"]
+:HL["/_next/static/chunks/10yugatb4i.f-.css","style"]
 :HL["https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500;600;700&display=swap","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"(app)","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"b5u30qhVJ6I53XD37RY3Y"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"(app)","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"EV1OeHjjrzP5zmonD03Ox"}
